@@ -1,8 +1,8 @@
-#pragma once
-
 #include "JsonUtil.h"
+
 #include "Json.h"
 
+#include <cstring>
 #include <utility>
 
 
