@@ -1,4 +1,4 @@
-# Solutions for AdventOfCode 2021
+# Solutions for AdventOfCode 2022
 
 Solutions are located in `AdventOfCode2022/src/days/` and the project was built using `Visual Studio 2019`.
 Might migrate the solutions to Linux at some point.
