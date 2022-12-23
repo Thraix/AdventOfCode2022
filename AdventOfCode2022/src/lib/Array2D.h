@@ -128,6 +128,7 @@ struct Array2D
         index.x = 0;
         index.y++;
       }
+      return *this;
     }
 
     // Postfix
@@ -407,7 +408,7 @@ struct Array2D
 
   typename Array2D<T>::Iterator begin()
   {
-    return Iterator{*this, Index2D{0, 0, 0}};
+    return Iterator{*this, Index2D{0, 0}};
   }
 
   typename Array2D<T>::Iterator end()
